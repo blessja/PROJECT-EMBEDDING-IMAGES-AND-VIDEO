@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(252, 245, 245);
+    margin: 0;
+}
+
+.main-container {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(1, 3fr 1fr);
+    padding-left: 30px;
+}
+
+.nav {
+    grid-column: 1/4;
+    width: max-content;
+    padding-left: 0px;
+}
+
+.main {
+    display: grid;
+    margin-top: 3em;
+    margin-left: 3em;
+    height: 500px;
+}
+
+.sidebar {
+    margin-top: 3em;
+    margin-left: 2em;
+    height: 100%;
+    width: 300px;
+    top: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+input.form-control {
+    width: 500px!important;
+}
+
+.line {
+    margin-top: 3vh;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.videoRow,
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.videoDetail1 {
+    margin-left: 2vw;
+    width: 95%;
+}
+
+.theDetail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5vw;
+}
+
+.theDetail h4 {
+    font-size: 15px;
+    margin-bottom: 1.2vh;
+    font-weight: 550;
+}
+
+.theDetail span {
+    color: gray;
+    font-size: 12px;
+}
+
+.thumbs-up::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.login::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+}
+
+.views-tag {
+    margin-right: 5.5em;
+}
+
+.material-icons {
+    padding-left: 1em;
+}
+
+.fa-share {
+    padding-right: 2em;
+}
